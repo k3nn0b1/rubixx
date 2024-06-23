@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background-color: #D60606;
+}
+
+#List{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    margin: 5vh;
+}

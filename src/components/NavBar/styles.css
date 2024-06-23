@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#navbar{
+    background-color: #1b1b1b;
+    color: #F8DF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 10vh;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+    min-width: 320px;
+}
+
+p{
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
