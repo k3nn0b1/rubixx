@@ -11,7 +11,7 @@ body{
     background-color: #D60606;
 }
 
-#List{
+#list{
     display: flex;
     flex-direction: column;
     gap: 5vh;

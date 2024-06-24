@@ -1,7 +1,13 @@
 import "./styles.css";
 
+
 export const ActivityItem = (props) => {
   return (
-    <button className="Activities" type="button">{props.title}</button>
-  )
-}
+    <div>
+      <button className="Activities" type="button" onClick={props.onClick}>
+        {props.activity.title}
+      </button>
+      
+    </div>
+  );
+};

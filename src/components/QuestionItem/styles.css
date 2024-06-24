@@ -1,0 +1,54 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.option-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #0056b3;
+}
+
+.option-button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.selected-order {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.selected-order h2 {
+  color: #333;
+}
+
+.selected-order ol {
+  padding-left: 20px;
+}
