@@ -28,11 +28,11 @@
 #button-close{
     background-color:#F8DF00;;
     height: 4vh;
-    width: 14vw;
+    width: 20vw;
     border:none;
     font-size: 1.6rem;
     border-radius: 20px;
-    max-width: 80px;
+    max-width: 90px;
     padding: 5px;
     margin-bottom: 20px;
 }

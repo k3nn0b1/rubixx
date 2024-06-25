@@ -1,7 +1,6 @@
 import React from "react";
 import { QuestionItem } from "../QuestionItem";
 import { useState } from "react";
-
 export const QuestionList = ({ questions }) => {
   const [userAnswer, setUserAnswer] = useState([]);
 
