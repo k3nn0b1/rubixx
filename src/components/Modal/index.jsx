@@ -10,7 +10,7 @@ export const Modal = ({ isOpen, handleClose, children }) => {
     <div className={isOpenHideClassName}>
       <section className="modal-container">
         {children}
-        <button type="button" onClick={handleClose}>
+        <button type="button" id="button-close" onClick={handleClose}>
           Close
         </button>
       </section>

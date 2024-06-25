@@ -11,7 +11,7 @@
 }
 
 .modal-container {
-  background: white;
+  background:#D60606;
   padding: 20px;
   border-radius: 5px;
   width: 100vw;
@@ -23,4 +23,16 @@
 
 .hide {
   display: none;
+}
+
+#button-close{
+    background-color:#F8DF00;;
+    height: 4vh;
+    width: 14vw;
+    border:none;
+    font-size: 1.6rem;
+    border-radius: 20px;
+    max-width: 80px;
+    padding: 5px;
+    margin-bottom: 20px;
 }
